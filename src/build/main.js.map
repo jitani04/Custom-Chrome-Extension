@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["console","log"],"mappings":";AAGAA,QAAQC,IAAI","file":"main.js","sourceRoot":"../js","sourcesContent":["// Content script entry for MV3 build output to src/build/main.js\n// Keep simple to comply with MV3 CSP (no eval/inline code generated at runtime)\n\nconsole.log(\"Helper extension content script loaded (MV3)\");\n\n\n"]}

@@ -4,8 +4,9 @@
     "description": "Description",
     "main": "src/js/main.js",
     "scripts": {
-        "build": "parcel build src/js/main.js -d src/build/ -o main.js",
-        "watch": "parcel watch src/js/main.js -d src/build/ -o main.js"
+        "build": "parcel build src/js/main.js -d src/build/ -o main.js && parcel build src/js/popup.jsx -d src/build/ -o popup.js",
+        "watch:content": "parcel watch src/js/main.js -d src/build/ -o main.js",
+        "watch:popup": "parcel watch src/js/popup.jsx -d src/build/ -o popup.js"
     },
     "author": "Jenna Itani",
     "dependencies": {
@@ -15,5 +16,8 @@
         "react": "^16.2.0",
         "react-dom": "^16.2.0"
     },
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.3"
+    }
 }
